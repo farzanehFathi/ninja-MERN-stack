@@ -8,11 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavigationBar />
-        <Search />
-        <h1>Hello from React </h1>
-
-        {/* <Weather city="Paris" />; */}
       </header>
+      <Search />
+      <Weather />
     </div>
   );
 }
