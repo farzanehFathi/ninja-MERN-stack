@@ -1,0 +1,15 @@
+.NavigationBar {
+  margin-bottom: 10px;
+}
+.NavigationBar ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.NavigationBar li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #007bff;
+}
