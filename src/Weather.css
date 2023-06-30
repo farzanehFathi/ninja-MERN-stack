@@ -11,6 +11,30 @@
   line-height: 28px;
 }
 
+.Weather .weather-header {
+  margin-bottom: 20px;
+}
+
+.Weather .temperature {
+  display: flex;
+}
+
+.Weather .weather-temp {
+  color: #333;
+  float: left;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.Weather .weather-temp-unit {
+  color: #333;
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .Weather .weather-detail__text {
   font-size: 16px;
   font-weight: 100;
