@@ -5,8 +5,9 @@ export default function Search() {
   return (
     <div className="Search">
       <form>
-        <input type={Text} placeholder="Enter a city ..." />
-        <button> Search</button>
+        <input type="Text" placeholder="Enter a city ..." />
+        <input type="submit" value="Search" className="btn btn-primary" />
+        <button className="float-left btn btn-success"> Current </button>
       </form>
     </div>
   );
